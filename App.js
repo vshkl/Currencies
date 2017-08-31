@@ -10,8 +10,7 @@ class App extends Component {
 
   render() {
     return (
-      <Provider currencyStore={CurrencyStore} rateStore={RateStore}
-      >
+      <Provider currencyStore={CurrencyStore} rateStore={RateStore} >
         <AppNavigator />
       </Provider>
     );
